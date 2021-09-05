@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+header{
+    background-color: rgba(22, 98, 104, 0.548);
+    text-align: center;
+    height: 150px;
+    justify-content: space-around;
+}
+.titulo{
+    position: relative;
+    top: 50px;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+}
+
+
+.encabezado{
+    padding: 50px;
+}  
+nav {
+    font-size: 22px;
+    display:inline-block;      
+    height: 60px;
+    padding: 20px 0;
+    }
+.menu{
+    padding: 25px;
+    color: rgb(16, 122, 172);
+    text-decoration: none;
+    text-shadow: rgb(100, 100, 100) 2px 2px 6px;
+}      
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #29282b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23465175' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");    
+} 
+section, aside{
+    display: inline-block;
+
+    
+}
+
+section{
+    background-color: #7e78783f;
+    height: 700px;
+    width: 1000px;
+    float: left;
+    padding: 0px;
+}
+#divBtn{
+    text-align: center;
+    color: rgb(187, 59, 27);
+}
+#botones{
+position: relative;
+top: 70px;
+background-color: rgb(73, 156, 142);
+padding: 50px;
+margin: 20px;
+}
+.articulos{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;   
+    border: 1px solid;
+    height: 690px;
+}
+aside{
+    background-color: rgba(128, 125, 125, 0.418);
+    height: 700px;
+    width: 349px;
+    float: left;
+    
+}
+#myImage{
+    width: 350px;
+    position: relative;
+    top: 60px;
+}
+.restaurar{
+    clear: both;
+}
+
+
+ 
+footer {
+    background: #2f3640;
+    color: #616161;
+    height: 340px;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}   
+.redes{
+    position: relative;
+    top: 50px;
+    color: lavender;
+    padding: 20px;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    margin: 90px;
+}
+#reds{
+    color: rgb(99, 187, 12);
+}
+p{
+    color: aqua;
+}
+span{
+    color: rgb(11, 194, 72);
+}
+ol{
+    color: rgb(7, 224, 43);
+}
+ul{
+    color: #fe5c10;
+}

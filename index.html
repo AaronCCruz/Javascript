@@ -1,0 +1,81 @@
+<!-- Estructura básica de un documento HTML5 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Aplicacion Personal</title>
+<meta charset="UTF-8" />
+<meta name="title" content="Título de la WEB" />
+<meta name="description" content="Descripción de la WEB" />
+
+<!-- CUSTOM CSS -->
+<link rel="stylesheet" href="CSS/styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="Javascript/codigoJS.js"></script>
+<noscript>Tu navegador no admite Javascript o esta deshabilitado</noscript>
+<script>alert("Hola Mundo !!!!")</script>
+</head>
+<body >
+<div class="container">
+    <header class="showcase">   
+        <h1 class="titulo">ESTRUCTURA HTML</h2>         
+    </header>              
+    <nav class="nav-main">      
+        <a href="index.html" class="menu">Estructura</a>
+        <a href="texto.html" class="menu">Texto</a></li>
+        <a href="contenido.html" class="menu">Contenido</a> 
+    </nav>
+<hr>
+
+<div class="grupo1">
+<section>
+<article class="articulos">
+<h2>CONTENIDO PRINCIPAL</h2>
+<p >Este es el contenido principal de mi web.</p>
+<button id="boton" >Haz doble click</button><br>
+<label id="mensaje">#################</label><br>
+<label for="numero">Ingresar un caracter</label>
+<input type="text" name="numero" id="numero" value="" class="data" required
+onKeyUp="javascript:validarSiNumero(this.value)" />
+<br><br>
+<div class = "correo">    
+    <label for="email"></label>Email</label>
+    <input type="text" name="email" id="email" value="" class="data" required onKeyUp="javascript:validateMail('email')" />
+    </div>
+  <label for="fecha">Ingresar fecha</label>  
+ <input type="date" name="fecha" maxlength="10" id="fecha"><br><br>
+<div id="divBtn">
+<h2>PRESIONE PARA ENCENDER/APAGAR EL FOCO.</h2><br>
+ <button id="botones"
+onclick="document.getElementById('myImage').src='imagenes/encendido.png'">
+ENCENDER
+</button>
+<button id="botones"
+onclick="document.getElementById('myImage').src='imagenes/apagado.png'">
+APAGAR  
+</button>  
+</div>
+</article>
+</section>
+<aside>
+<h2>CONTENIDO RELACIONADO</h2>
+<P>Contenido un poco relacionado a la principal</P>
+<img id="myImage" src="imagenes/apagado.png" />
+</aside>
+</div>
+</div>
+<div class="restaurar"></div>
+<footer>
+<h4 id="reds"class="redes">Redes sociales</h4>
+<a href="https://www.facebook.com/aaron.concepcion.161/" class="redes">Facebook</a>
+<a href="https://twitter.com/?lang=es" class="redes">Twitter</a>
+<a href="https://www.instagram.com/" class="redes">Instagram</a>
+<div>
+    <img src="imagenes/face.png" alt="Fuera de linea" width="50" class="logo">
+    <img src="imagenes/tweet.png" alt="Fuera de linea" width="50" class="logo">
+    <img src="imagenes/insta.png" alt="Fuera de linea" width="50" class="logo">
+</div>
+</footer>
+</body>
+</html>
